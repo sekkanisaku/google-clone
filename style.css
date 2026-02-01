@@ -116,3 +116,20 @@ footer {
 .customize-btn:hover {
     background-color: #949494;
 }
+
+@media (max-width: 600px) {
+    .search-container input {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .shortcuts {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header {
+        padding: 10px;
+    }
+}
